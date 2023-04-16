@@ -18,6 +18,7 @@ calcule() {
     exit 1
      ;;  
  esac
+
 }
 if [ $# -eq 3 ]; then 
    n1=$1
@@ -26,4 +27,3 @@ if [ $# -eq 3 ]; then
    res=$(calcule $n1 "$op" $n2 )
 echo "$n1 $op $n2 = $res"
 fi
-
