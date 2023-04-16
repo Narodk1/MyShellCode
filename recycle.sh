@@ -1,5 +1,5 @@
 #!/bin/bash
-
+"corbeille"
 if [ ! -d corbeille ]
 then
 	exec mkdir corbeille
