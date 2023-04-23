@@ -7,14 +7,14 @@ fi
 
 if [ ! -f $file ]; then
     "$file existe pas !!"
-    
+
 else
     som=0
     cpt=0
     min=$(head -1 $file)
     max=$(head -1 $file)
     val=$(cat $file)
-    
+
     for x in $val; do
         som=$(($som + $x))
         cpt=$(($cpt + 1))
